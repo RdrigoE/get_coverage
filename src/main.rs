@@ -26,6 +26,6 @@ struct Args {
 fn main() {
     let args = Args::parse();
     println!("{:?}", args);
-    
+
     get_coverage::coverage::process_files(args.input, args.reference, args.output, args.ratio)
 }

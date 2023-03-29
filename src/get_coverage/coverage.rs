@@ -7,7 +7,7 @@ pub fn process_files(input: String, reference: String, output: String, ratio: St
 
 
     // Initiate ParseFile
-
+    parse_file = ParseFile();
 
 }
 
